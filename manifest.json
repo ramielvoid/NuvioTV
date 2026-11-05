@@ -1,24 +1,28 @@
 {
   "id": "space.ramielvoid.nuviotv.scrapers",
   "name": "NuvioTV - Ramiel",
-  "description": "NuvioTV Özel Sağlayıcılar ve Canlı TV Kataloğu",
-  "version": "0.0.2",
+  "description": "HDFilmCehennemi Kataloğu & Aethelon Canlı TV Sağlayıcısı",
+  "version": "0.0.4",
   "catalogs": [
-    {
-      "id": "aethelontv-live",
-      "name": "Aethelon TV - Canlı Yayınlar",
-      "type": "tv",
-      "extra": [
-        { "name": "search", "isRequired": false },
-        { "name": "genre", "isRequired": false }
-      ]
-    }
+    { "id": "hd-new-movies", "name": "HDFilmC - Yeni Filmler", "type": "movie", "supportsPagination": true },
+    { "id": "hd-new-series", "name": "HDFilmC - Yeni Diziler", "type": "series", "supportsPagination": true },
+    { "id": "hd-recommended", "name": "HDFilmC - Tavsiye Filmler", "type": "movie", "supportsPagination": true },
+    { "id": "hd-imdb7", "name": "HDFilmC - IMDb 7+", "type": "movie", "supportsPagination": true },
+    { "id": "aethelontv-live", "name": "Aethelon TV - Canlı Yayınlar", "type": "tv", "extra": [{ "name": "search", "isRequired": false }, { "name": "genre", "isRequired": false }] }
   ],
   "defines": {
     "catalogs": {
+      "hd-new-movies": "hdfilmcehennemi",
+      "hd-new-series": "hdfilmcehennemi",
+      "hd-recommended": "hdfilmcehennemi",
+      "hd-imdb7": "hdfilmcehennemi",
       "aethelontv-live": "https://aetheloncore.space"
     },
     "streams": {
+      "hd-new-movies": "hdfilmcehennemi",
+      "hd-new-series": "hdfilmcehennemi",
+      "hd-recommended": "hdfilmcehennemi",
+      "hd-imdb7": "hdfilmcehennemi",
       "aethelontv-live": "https://aetheloncore.space"
     }
   },
