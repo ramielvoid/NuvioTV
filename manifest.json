@@ -1,0 +1,44 @@
+{
+  "id": "space.aetheloncore.tv.scrapers",
+  "name": "AethelonTV",
+  "description": "AethelonTV Bağımsız Medya Sağlayıcıları (80 Aktif Motor)",
+  "version": "0.0.8",
+  "catalogs": [],
+  "scrapers": [
+    {
+      "id": "hdfilmcehennemi",
+      "name": "!HDFilmCehennemi",
+      "logo": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=128",
+      "version": "0.1.0",
+      "filename": "providers/hdfilmcehennemi.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "supportsComments": true,
+      "catalogs": [
+        { "id": "new-movies", "name": "Yeni Eklenen Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "new-series", "name": "Yeni Eklenen Diziler", "type": "series", "supportsPagination": true },
+        { "id": "recommended", "name": "Tavsiye Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "imdb7", "name": "IMDb 7+ Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "action", "name": "Aksiyon", "type": "movie", "supportsPagination": true },
+        { "id": "science-fiction", "name": "Bilim Kurgu", "type": "movie", "supportsPagination": true },
+        { "id": "animation", "name": "Animasyon", "type": "movie", "supportsPagination": true },
+        { "id": "comedy", "name": "Komedi", "type": "movie", "supportsPagination": true },
+        { "id": "horror", "name": "Korku", "type": "movie", "supportsPagination": true },
+        { "id": "drama", "name": "Dram", "type": "movie", "supportsPagination": true },
+        { "id": "romance", "name": "Romantik", "type": "movie", "supportsPagination": true },
+        { "id": "war", "name": "Savaş", "type": "movie", "supportsPagination": true },
+        { "id": "sports", "name": "Spor", "type": "movie", "supportsPagination": true },
+        { "id": "crime", "name": "Suç", "type": "movie", "supportsPagination": true },
+        { "id": "history", "name": "Tarih", "type": "movie", "supportsPagination": true },
+        { "id": "western", "name": "Western", "type": "movie", "supportsPagination": true }
+      ]
+    }
+  ]
+}
