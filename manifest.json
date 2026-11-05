@@ -2,7 +2,7 @@
   "id": "space.ramielvoid.nuviotv.scrapers",
   "name": "NuvioTV - Ramiel",
   "description": "NuvioTV Özel Sağlayıcılar ve Canlı TV Kataloğu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "catalogs": [
     {
       "id": "aethelontv-live",
@@ -14,6 +14,14 @@
       ]
     }
   ],
+  "defines": {
+    "catalogs": {
+      "aethelontv-live": "https://aetheloncore.space"
+    },
+    "streams": {
+      "aethelontv-live": "https://aetheloncore.space"
+    }
+  },
   "scrapers": [
     {
       "id": "hdfilmcehennemi",
